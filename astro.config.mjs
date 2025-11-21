@@ -9,7 +9,7 @@ const isDev = process.env.NODE_ENV !== 'production' && !process.env.CI;
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://shrey.github.io',
+  site: 'https://shr-chauhan.github.io',
   // Base path is '/' for both dev and production since we're deploying to the root domain
   base: '/',
 });
