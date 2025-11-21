@@ -2,13 +2,13 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Portfolio">
+<BaseLayout title="Shrey Chauhan">
   <main class="max-w-4xl mx-auto px-6 py-12">
     <!-- Header -->
     <header class="mb-16">
       <h1 class="text-4xl font-bold mb-4">Shrey Chauhan</h1>
       
-      <div class="w-32 h-32 bg-gray-200 rounded-full mb-6"></div>
+      <img src="/profile.jpg" alt="Shrey Chauhan" class="w-32 h-32 rounded-full mb-6 object-cover" />
       <p class="text-lg text-gray-700">
         Hi, I’m Shrey — an engineer who loves building systems, solving problems, and playing 1-minute chess between tasks. I’m also passionate about sports.
       </p>
@@ -89,36 +89,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <!-- Blog Section -->
     <section id="blog" class="mb-16">
-      <h2 class="text-3xl font-bold mb-6 border-b-2 border-gray-300 pb-2">Blog Posts</h2>
+      <h2 class="text-3xl font-bold mb-6 border-b-2 border-gray-300 pb-2">Computer Engineering</h2>
       <div class="space-y-4">
         <div class="flex items-start gap-4">
-          <span class="text-gray-500 font-mono text-sm">1.</span>
-          <a href="#" class="text-blue-600 hover:text-blue-800 hover:underline text-lg">
-            Understanding Neural Networks: A Beginner's Guide
-          </a>
-        </div>
-        <div class="flex items-start gap-4">
-          <span class="text-gray-500 font-mono text-sm">2.</span>
-          <a href="#" class="text-blue-600 hover:text-blue-800 hover:underline text-lg">
-            Building My First ML Model: Lessons Learned
-          </a>
-        </div>
-        <div class="flex items-start gap-4">
-          <span class="text-gray-500 font-mono text-sm">3.</span>
-          <a href="#" class="text-blue-600 hover:text-blue-800 hover:underline text-lg">
-            The Future of AI in Healthcare
-          </a>
-        </div>
-        <div class="flex items-start gap-4">
-          <span class="text-gray-500 font-mono text-sm">4.</span>
-          <a href="#" class="text-blue-600 hover:text-blue-800 hover:underline text-lg">
-            Deep Learning vs Traditional ML: When to Use What
-          </a>
-        </div>
-        <div class="flex items-start gap-4">
-          <span class="text-gray-500 font-mono text-sm">5.</span>
-          <a href="#" class="text-blue-600 hover:text-blue-800 hover:underline text-lg">
-            My Journey into Computer Vision
+          <a href="/ai" class="text-blue-600 hover:text-blue-800 hover:underline text-lg">
+            Why Every Software Engineer Should Learn AI — Even If It Feels Overwhelming
           </a>
         </div>
       </div>
@@ -127,10 +102,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <!-- Footer -->
     <footer class="mt-16 pt-8 border-t border-gray-300">
       <div class="flex flex-wrap gap-6 text-sm text-gray-600">
-        <a href="#" class="hover:text-gray-900">Resume</a>
-        <a href="#" class="hover:text-gray-900">GitHub</a>
-        <a href="#" class="hover:text-gray-900">LinkedIn</a>
-        <a href="#" class="hover:text-gray-900">Email</a>
+        <a href="https://github.com/shr-chauhan" class="hover:text-gray-900" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/shrey-chauhan" class="hover:text-gray-900" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
       <p class="mt-4 text-sm text-gray-500">
         © 2024 Your Name. All rights reserved.
