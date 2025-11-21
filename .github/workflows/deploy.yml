@@ -18,17 +18,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build with Astro
+      - name: Build Astro
         uses: withastro/action@v2
         with:
           path: .
           node-version: 20
           package-manager: npm@latest
-
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
 
   deploy:
     needs: build
